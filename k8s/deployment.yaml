@@ -29,7 +29,7 @@ spec:
         app: gitops-devops-platform-deployment
     spec:
       containers:
-      - image: gitops-devops-platform
+      - image: yash7516/gitops-devops-platform:latest
         imagePullPolicy: Never
         name: gitops-devops-platform
         resources: {}
