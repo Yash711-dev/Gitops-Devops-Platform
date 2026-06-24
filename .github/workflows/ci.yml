@@ -39,6 +39,7 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
+          platforms: linux/amd64
           tags: yash7516/gitops-devops-platform:latest
 
 
